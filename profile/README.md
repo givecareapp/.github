@@ -17,7 +17,7 @@
 
 ## 👋 About
 
-**53 million Americans are family caregivers.** They provide $600B in unpaid care annually, but they're 2-3x more likely to develop depression, 50% more likely to have chronic conditions, and lose an average of $300K in lifetime earnings.
+**63 million Americans are family caregivers.** They provide $600B in unpaid care annually, but they're 2-3x more likely to develop depression, 50% more likely to have chronic conditions, and lose an average of $300K in lifetime earnings.
 
 We're building open-source tools to help them measure burnout, track progress, and find support.
 
