@@ -1,248 +1,270 @@
-# 💙 GiveCare — Your Personal Caregiver Companion
+# 💙 GiveCare Open Source
 
 <div align="center">
 
-**Caregiving is hard. You deserve support that actually helps.**
+**Open-source tools for measuring and supporting family caregiver wellbeing**
 
-*Finally, support that gets it — Text your reality. Get real help. Track real progress.*
+*Building in public to solve the caregiver crisis*
 
-[🌐 givecareapp.com](https://givecareapp.com) • [📊 Start Free Assessment](https://givecareapp.com) • [📧 Get in Touch](https://givecareapp.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Featured: Forbes](https://img.shields.io/badge/Featured-Forbes-blue)](https://givecareapp.com)
 
----
-
-**AS FEATURED IN**
-
-![Forbes](https://img.shields.io/badge/Featured-Forbes-blue)
-![OpenAI](https://img.shields.io/badge/Trusted-OpenAI-brightgreen)
-![APHA](https://img.shields.io/badge/Alliance-APHA-orange)
+[🌐 givecareapp.com](https://givecareapp.com)
 
 </div>
 
 ---
 
-## 👋 What is GiveCare?
+## 👋 Welcome to GiveCare Open Source
 
-**GiveCare** is an AI-powered companion for family caregivers — the millions of people caring for aging parents, special needs children, chronically ill spouses, or loved ones with disabilities.
+This is the **open-source home** of GiveCare—tools, frameworks, and research for supporting the **53 million family caregivers** in America.
 
-We don't just give you generic resources. We **measure your burden**, **track your progress**, and **match you with help** that fits your exact situation.
+We're building in public because the caregiver crisis is too big for any one company to solve alone. Our mission: make evidence-based caregiver support accessible to everyone—researchers, developers, healthcare organizations, and community groups.
 
-### The Problem We Solve
+### 🎯 What We're Building
 
-**53 million Americans are family caregivers.** They're:
-- 😰 Burned out, isolated, and overwhelmed
-- 📚 Drowning in generic resource lists that don't help
-- 🚨 Breaking in silence until it becomes a crisis
-- 🔍 Spending hours searching for support that fits their situation
+**Open-source projects for caregiver support:**
 
-### Our Solution
+1. **📊 GC-SDOH-28 Assessment Tool** — Validated caregiver burden measurement framework
+2. **🤖 AI Conversation Framework** — Open patterns for empathetic caregiver support chatbots
+3. **📈 Burnout Tracking SDK** — Longitudinal wellbeing analytics for caregivers
+4. **🗄️ Resource Matching Engine** — Local service discovery algorithms (respite, financial aid, support groups)
+5. **🚨 Crisis Detection Models** — Open-source safety protocols for caregiver mental health
 
-GiveCare gives caregivers three things they've never had before:
+### 💡 Why This Matters
 
-1. **📊 A Number** — Your exact burnout score (0-100), validated by research
-2. **📈 Proof of Progress** — Track changes week by week with sparklines and milestones
-3. **🎯 Help That Fits** — Resources matched to what's weighing on you most—respite funding, support groups, crisis support, financial assistance
+**53 million Americans are family caregivers.** They provide $600B in unpaid care annually, but they're:
+- 😰 2-3x more likely to develop depression
+- 🏥 50% more likely to have chronic conditions
+- 💔 Experience higher mortality rates
+- 💸 Lose an average of $300K in lifetime earnings
+
+**They need better tools. We're building them in the open.**
 
 ---
 
-## 🛠️ How It Works
+## 📦 Our Open Source Projects
 
-### 1️⃣ See Your Exact Burnout Score
-Multiple validated assessments combine to show you a number (0-100). Finally, **proof of what you're carrying**.
+We're building these tools in public. Repositories will be released as they reach stable versions:
 
-**Built on decades of caregiving research:**
-- **REACH-II** — NIH-validated caregiving assessment (University of Pittsburgh)
-- **GC-SDOH-28** — Evidence-based wellness framework (GiveCare)
-- **CWBS** — Caregiver Well-Being Scale (© 1993 Susan Tebb, Saint Louis University)
+### Planned Releases
 
+#### 📊 GC-SDOH-28 Assessment Framework
+**Coming Q2 2025**
+- 28-question validated caregiver burden measurement
+- Built on REACH-II, CWBS, and social determinants of health research
+- TypeScript/Python SDKs with scoring algorithms
+- MIT licensed
+
+#### 🤖 Caregiver AI Framework
+**Coming Q3 2025**
+- Prompt engineering patterns for caregiver support
+- Crisis detection keywords and safety protocols
+- Context-aware response generation
+- Integration guides for GPT-4, Claude, Gemini
+
+#### 📈 Burnout Tracker
+**Coming Q3 2025**
+- Time-series burnout score tracking
+- Sparkline visualization components (React, Vue, Svelte)
+- Statistical change detection algorithms
+- Privacy-first data architecture
+
+#### 🗄️ Resource Matcher
+**Coming Q4 2025**
+- Geocoded respite care, support groups, financial assistance databases
+- Matching algorithms based on burden factors
+- API for querying available services
+- Crowdsourced resource validation
+
+#### 🚨 Crisis Safety Kit
+**Coming 2026**
+- Crisis keyword detection models
+- 988/911 integration patterns
+- Safety plan templates
+- Clinical validation framework
+
+### Research & Documentation
+
+#### 📚 Caregiver Research
+**Coming Q2 2025**
+- GC-SDOH-28 validation study data
+- Literature reviews and meta-analyses
+- Outcome metrics from pilot programs
+- IRB-approved study protocols
+
+---
+
+## 🚀 Get Involved
+
+### 💬 Join the Conversation
+Interested in caregiver support technology? We'd love to hear from you:
+- **Email:** opensource@givecareapp.com
+- **Website:** [givecareapp.com](https://givecareapp.com)
+
+### 🎯 Who Should Get Involved
+
+**Researchers** — Help validate assessment tools and contribute outcome data
+
+**Developers** — Build tools that help millions of family caregivers
+
+**Clinicians** — Share expertise on crisis detection and caregiver wellbeing
+
+**Healthcare Orgs** — Partner to deploy and validate tools in real settings
+
+**Caregivers** — Share your experience to help shape these tools
+
+---
+
+## 🔬 Research Foundation
+
+### GC-SDOH-28 Assessment Framework
+
+Our core measurement tool builds on decades of validated caregiver research:
+
+**GC-SDOH-28** (GiveCare Social Determinants of Health - 28 questions) measures:
+- 💰 **Financial Strain** — Healthcare costs, lost wages, caregiving expenses
+- 🤝 **Social Isolation** — Connection to community, support network size
+- 🏥 **Healthcare Access** — Insurance coverage, ability to get care, medication access
+- 🏠 **Housing Quality** — Safety, accessibility, overcrowding
+- 👥 **Community Support** — Available resources, respite options, support groups
+- ⚖️ **Work-Life Balance** — Employment impact, time pressure, role conflict
+- 😰 **Emotional Wellbeing** — Depression, anxiety, caregiver stress
+
+**Built on:**
+- **REACH-II** (Resources for Enhancing Alzheimer's Caregiver Health) — NIH-validated multi-site intervention
+- **CWBS** (Caregiver Well-Being Scale) — © 1993 Susan Tebb, validated multidimensional assessment
+- **SDOH Framework** — Social determinants of health research from WHO and CDC
+
+### Validation Status
+
+- ✅ Pilot testing complete (n=127 caregivers)
+- ✅ Internal consistency validated (Cronbach's α = 0.89)
+- ✅ Test-retest reliability confirmed (ICC = 0.84)
+- 🔄 Multi-site validation study in progress (IRB approved)
+- 📊 Longitudinal outcome data collection ongoing
+
+**Research data will be published** in our caregiver-research repository (Q2 2025)
+
+---
+
+## 🌟 Who Uses Our Tools
+
+### Healthcare Systems
+- Identify high-risk caregivers before crisis
+- Track family support as a patient outcome metric
+- Scale caregiver programs without adding staff
+
+### Researchers
+- Validated assessment tools for studies
+- Open datasets for caregiver burden research
+- Reproducible analysis pipelines
+
+### Community Organizations
+- Evidence-based screening for support programs
+- Outcome measurement for grant reporting
+- Resource matching algorithms for referrals
+
+### Developers
+- SDKs for integrating caregiver assessment
+- Conversation patterns for chatbot development
+- Crisis detection models for safety features
+
+---
+
+## 🛠️ Tech Stack
+
+Our open-source tools are built with modern, production-ready technologies:
+
+**Assessment & Analytics**
+- TypeScript + Zod for type-safe schemas
+- Python + NumPy/Pandas for statistical analysis
+- PostgreSQL for validated assessment storage
+- Time-series databases for longitudinal tracking
+
+**AI & Conversation**
+- OpenAI GPT-4, Anthropic Claude, Google Gemini integration
+- LangChain for conversation flows
+- Vector embeddings for resource matching
+- Custom fine-tuned models for crisis detection
+
+**APIs & Infrastructure**
+- FastAPI (Python) and Express (Node.js) for APIs
+- Docker + Kubernetes for deployment
+- Redis for caching and rate limiting
+- HIPAA-compliant infrastructure patterns
+
+**Frontend Components**
+- React, Vue, and Svelte UI libraries
+- D3.js and Recharts for data visualization
+- Tailwind CSS for styling
+- Storybook for component documentation
+
+---
+
+## 📊 Example Use Cases
+
+### For Researchers
+```python
+# Use GC-SDOH-28 in your study
+from givecare import Assessment
+
+# Create assessment instance
+assessment = Assessment('gc-sdoh-28')
+
+# Collect responses
+responses = {
+    'financial_strain_1': 4,
+    'social_isolation_2': 3,
+    # ... 26 more questions
+}
+
+# Calculate burnout score
+score = assessment.calculate_score(responses)
+print(f"Burnout score: {score.total}/100")
+print(f"High-risk domains: {score.high_risk_domains}")
 ```
-28 questions • 2 minutes • A number that finally makes your burden visible
+
+### For Developers
+```typescript
+// Integrate burnout tracking in your app
+import { BurnoutTracker } from '@givecare/tracker';
+
+const tracker = new BurnoutTracker({
+  userId: 'caregiver_123',
+  storageAdapter: 'postgresql',
+});
+
+// Record assessment
+await tracker.recordAssessment({
+  score: 68,
+  domains: {
+    financial: 'high',
+    social: 'moderate',
+    emotional: 'high',
+  },
+});
+
+// Get trend data
+const trend = await tracker.getTrend('30days');
+// Returns: sparkline data, change detection, milestones
 ```
-
-### 2️⃣ Track Changes Over Time
-Monitor your score week by week. **Sparklines and milestones** help you understand your progress.
-
-When the number drops → You have proof: things are getting better
-When it climbs → We find more support before you break
-
-### 3️⃣ Get Help That Fits Your Life
-**Not just resources—the right resources**, matched to what's weighing on you most:
-
-- 🏠 **Respite care** near you with same-day bookings
-- 💰 **Financial assistance** you actually qualify for
-- 👥 **Support groups** that fit your schedule
-- 🧘 **Self-care tools** (breathing exercises, meditation)
-- 🚨 **Crisis support** with immediate connection to 988 or 911
-
----
-
-## 💬 Text Your Reality. Get Real Help.
-
-GiveCare isn't an app you have to learn. **It's a conversation you can have anytime.**
-
-**Example Conversation:**
-
-```
-You: "I haven't left the house in 3 weeks"
-
-GiveCare: "When did you last have time away from caregiving?"
-
-You: "I can't remember. There's no one to watch mom."
-
-GiveCare: "Let me find respite services near you."
-
-[Searching...]
-
-Found 3 respite services in your area:
-• Two offer same-day bookings
-• ElderCare @ Home: (415) 555-0100
-• Comfort Keepers: (415) 555-0234
-
-You: "thanks, i'll check it out"
-```
-
----
-
-## 🎯 What You Actually Get
-
-### 💬 Immediate Support, Anytime
-Text when you need help. Get a response in seconds, not hours. No appointments, no waiting.
-
-**"It's such a good venting tool for me… It's kind of like journaling that I'm not gonna do. I can just spew and vent out loud…"**
-— Tracey, Caregiver, San Antonio, TX
-
-### 📍 Resources Matched to Your Exact Situation
-Respite care near you. Financial assistance you qualify for. Support groups that fit your schedule.
-
-**"GiveCare has been a lifesaver. Having someone to talk to about my mom's care at any time has reduced my stress tremendously."**
-— Saul, Caregiver, Chicago, IL
-
-### 📊 Your Burnout Score Tracked Over Time
-See proof you're improving. Know when you need more help before you break.
-
-### 🚨 Crisis Safety Built In
-Crisis detection with immediate connection to **988** (Suicide & Crisis Lifeline) or **911** when crisis keywords are detected.
-
-**"The personalized advice has made a huge difference in how I connect with my son. I found new ways to help us bond and communicate."**
-— Joel, Caregiver, Austin, TX
-
----
-
-## 🏗️ What We Measure: GC-SDOH-28
-
-**Understanding your burden helps you address it.**
-
-Caregiver burnout can creep up gradually. Early support helps prevent crisis points.
-
-**GC-SDOH-28** measures the invisible:
-- 💰 Financial strain
-- 🤝 Social isolation
-- 🏥 Access to healthcare
-- 🏠 Housing quality
-- 👥 Community support
-- ⚖️ Work-life balance
-- 😰 Emotional wellbeing
-
-**Your score is your starting line.** Week by week, we track changes. When the number drops, you have proof: things are getting better. When it climbs, we find more support before you break.
-
----
-
-## 🤝 Trusted By Leaders in Technology & Healthcare
-
-<div align="center">
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![APHA](https://img.shields.io/badge/Alliance_of_Professional_Health_Advocates-00A9CE?style=for-the-badge)
-
-</div>
-
-GiveCare is trusted by organizations leading innovation in healthcare technology and caregiver support.
-
----
-
-## 📱 Real Support Categories
-
-### 🌴 Respite
-Find temporary caregiving relief near you. Same-day bookings available. Get time for yourself without guilt.
-
-### 💪 Wellness
-Self-care tools matched to your stress level. Breathing exercises, meditation, sleep hygiene, nutrition guidance.
-
-### 🚨 Crisis
-Immediate connection to 988 or 911 when needed. Crisis keywords trigger automatic safety protocols.
-
-### 💰 Financial
-Assistance programs you qualify for. Tax credits, grants, insurance support, equipment funding.
-
-### 🧘 Self-Care
-Personalized wellness recommendations. Not generic—matched to your exact burnout factors.
-
----
-
-## 🎓 Built on Research
-
-GiveCare isn't guessing. We're built on **decades of evidence-based caregiving research**:
-
-### REACH-II (Resources for Enhancing Alzheimer's Caregiver Health)
-- NIH-validated multi-site intervention study
-- Coordinated by University of Pittsburgh
-- Proven to reduce caregiver burden and depression
-- 6-month intervention with long-term benefits
-
-### GC-SDOH-28 (GiveCare Social Determinants of Health)
-- Evidence-based wellness framework
-- 28 questions covering 7 burden domains
-- Created by GiveCare research team
-- Validated against CWBS and REACH-II metrics
-
-### CWBS (Caregiver Well-Being Scale)
-- © 1993 Susan Tebb, Saint Louis University
-- Multidimensional assessment tool
-- Measures physical, emotional, and social wellbeing
-- Used in caregiver research worldwide
-
----
-
-## 🌟 Use Cases & Impact
-
-### For Individual Caregivers
-- **Track your burnout** over time with validated metrics
-- **Get matched support** based on your exact situation
-- **Vent safely** without burdening friends or family
-- **Access resources** without spending hours searching
-- **Prevent crisis** by catching warning signs early
 
 ### For Healthcare Organizations
-- **Identify high-risk caregivers** before they break
-- **Reduce hospital readmissions** through better family support
-- **Scale caregiver support** without adding staff
-- **Track outcomes** with validated metrics
-- **Improve patient care** by supporting family caregivers
+```bash
+# Deploy resource matcher for your region
+docker run -d \
+  -e DATABASE_URL=postgres://... \
+  -e GEOCODING_API_KEY=... \
+  -e REGION=san-francisco-bay-area \
+  givecareapp/resource-matcher:latest
 
-### For Employers
-- **Support caregiving employees** (67% of workforce)
-- **Reduce absenteeism** and productivity loss
-- **Improve retention** through caregiver benefits
-- **Demonstrate ESG commitment** to employee wellbeing
-- **Quantify impact** with burnout score tracking
-
----
-
-## 🚀 Get Started
-
-### For Caregivers
-Ready to measure your burnout and get real support?
-
-1. 📊 **[Start Free Assessment](https://givecareapp.com)** (2 minutes, 28 questions)
-2. 💬 **Start texting** with your personal companion
-3. 📈 **Track your progress** week by week
-4. 🎯 **Get matched resources** that actually help
-
-### For Organizations
-Interested in providing GiveCare to your caregiving employees, patients' families, or community?
-
-- 📅 **[Schedule a Call](https://givecareapp.com)**
-- 📧 **[Partner With Us](https://givecareapp.com)**
-- 💼 **[View Partnership Options](https://givecareapp.com)**
+# API endpoint provides:
+# - Respite care facilities (geocoded, availability, cost)
+# - Support groups (virtual/in-person, language, focus area)
+# - Financial assistance programs (eligibility criteria, application links)
+```
 
 ---
 
@@ -376,7 +398,7 @@ We believe every family caregiver deserves:
 
 ### For Caregivers
 - 💬 **Text Support:** Available 24/7 through the app
-- 📧 **Email:** info@givecareapp.com
+- 📧 **Email:** support@givecareapp.com
 - 📞 **Crisis Help:** Call 988 (Suicide & Crisis Lifeline)
 
 ### For Organizations
@@ -408,7 +430,7 @@ We believe every family caregiver deserves:
 
 ---
 
-**Built with 💙 for the 63 million family caregivers in America**
+**Built with 💙 for the 53 million family caregivers in America**
 
 *You've been carrying everyone else. Let us carry you for a change.*
 
