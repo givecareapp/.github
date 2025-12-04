@@ -42,14 +42,9 @@ Open-source utilities and helper modules for caregiving workflows.
 
 ---
 
-### ⚪ **[.github](https://github.com/givecareapp/.github)**  
-Organization profile and documentation for the GiveCare open-source ecosystem.
-
----
-
 ## 🤝 Get Involved
 
-- ✉️ **opensource@givecareapp.com**  
+- ✉️ **info@givecareapp.com**  
 - 🌐 **https://givecareapp.com**
 
 We welcome contributions from:
