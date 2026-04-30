@@ -1,16 +1,14 @@
-# 💙 GiveCare Open Source
+<!-- Diátaxis: explanation -->
 
-### Organizations  
-- ❤️ **GiveCare** — https://github.com/givecareapp  
-- 🧑‍🔬 **Ali Madad** — https://github.com/amadad  
-- 🏛️ **SCTY** — https://github.com/SCTY-Inc  
+# 💙 GiveCare Open Source
 
 <div align="center">
 
-**Open-source tools for measuring, evaluating, and supporting family caregiver wellbeing**  
-*Building in public to address the caregiver crisis.*
+**Open tools and datasets for caregiver AI safety, assessment, and evaluation**<br>
+*Building in public to help family caregivers and the systems that support them.*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  
+[![Code License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Data License: CC BY 4.0](https://img.shields.io/badge/data-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Featured: Forbes](https://img.shields.io/badge/Featured-Forbes-blue)](https://givecareapp.com)
 
 [🌐 givecareapp.com](https://givecareapp.com)
@@ -19,53 +17,73 @@
 
 ---
 
+## GitHub homes
+
+- ❤️ **GiveCare**: https://github.com/givecareapp
+- 🧑‍🔬 **Ali Madad**: https://github.com/amadad
+- 🏛️ **SCTY**: https://github.com/SCTY-Inc
+
+---
+
 ## 👋 About
 
-**63 million Americans are family caregivers.**  
-They provide over **$600B** in unpaid care annually and face elevated burnout, emotional strain, sleep disruption, and long-term health decline.
+**63 million Americans are family caregivers.** They provide more than **$600B** in unpaid care each year and face higher risk of burnout, emotional strain, sleep disruption, financial stress, and long-term health decline.
 
-GiveCare builds **open-source safety, measurement, and evaluation tools** to support caregivers — and to ensure AI systems intended to help them are safe and trustworthy.
+GiveCare open source focuses on the public primitives needed to build safer caregiver-support systems:
+
+- **Safety benchmarks** for AI agents in long-term caregiving relationships
+- **Evaluation datasets** for crisis handling, boundaries, red-team prompts, and trauma-informed response
+- **Caregiver SDOH tools** for measuring pressure zones and wellbeing signals
+
+The production GiveCare app is separate. These repos are the open evaluation, measurement, and research layer.
 
 ---
 
 ## 📂 Repositories
 
-### 🔵 **[givecare-bench](https://github.com/givecareapp/givecare-bench)**  
-AI safety benchmark for long-term caregiving relationships.  
-Tests crisis detection, regulatory compliance, emotional stability, and care quality across multi-turn conversations.  
-Includes the **GiveCare system paper** and the **InvisibleBench** evaluation framework.
+### 🔵 [givecare-bench](https://github.com/givecareapp/givecare-bench)
+
+AI safety benchmark for long-term caregiving relationships.
+
+Tests crisis detection, regulatory compliance, emotional stability, care quality, and multi-turn relationship dynamics. Includes the GiveCare system paper and InvisibleBench evaluation framework.
+
+### 🟣 [givecare-evals](https://github.com/givecareapp/givecare-evals)
+
+Public caregiver AI safety eval data.
+
+Contains 118 SMS-style test cases across core behavior, red-team, realistic caregiver scenarios, and multi-turn continuity, plus public SDOH-6, EMA-3, and SDOH-30 assessment instruments.
+
+### 🟢 [givecare-tools](https://github.com/givecareapp/givecare-tools)
+
+Open-source caregiver SDOH assessment and scoring toolkit.
+
+Provides TypeScript utilities for SDOH-6, EMA-3, SDOH-30, six-zone GiveCare Score calculation, adaptive deep-dive routing, quiet-hours checks, basic SMS regulatory keywords, and public geo helpers.
 
 ---
 
-### 🟢 **[care-tools](https://github.com/givecareapp/care-tools)**  
-Open-source utilities and helper modules for caregiving workflows.
+## 🤝 Get involved
+
+We welcome collaboration from:
+
+- **Researchers** working on evaluation, safety, measurement, and assessment science
+- **Developers** building test harnesses, model adapters, and caregiver-support tools
+- **Clinicians and social workers** with caregiving, aging, disability, and mental health expertise
+- **Health systems and NGOs** exploring caregiver support workflows
+- **Caregivers** willing to pressure-test whether these tools match lived experience
+
+Contact: [info@givecareapp.com](mailto:info@givecareapp.com)
 
 ---
 
-## 🤝 Get Involved
+## 📄 Licenses
 
-- ✉️ **info@givecareapp.com**  
-- 🌐 **https://givecareapp.com**
-
-We welcome contributions from:
-
-- **Researchers** — Validation and assessment science  
-- **Developers** — Tooling, evaluation, and safety frameworks  
-- **Clinicians** — Domain expertise in caregiving and mental health  
-- **Health Systems / NGOs** — Pilot collaborations  
-- **Caregivers** — Lived-experience insight  
-
----
-
-## 📄 License
-
-All GiveCare open-source projects are released under the **MIT License**, unless noted otherwise.
+Code projects are MIT licensed unless noted otherwise. Dataset artifacts, including GiveCare Evals, are CC-BY-4.0 unless noted otherwise.
 
 ---
 
 <div align="center">
 
-**© 2025 GiveCare**  
+**© 2026 GiveCare**<br>
 *You've been carrying everyone else. Let us help carry you.*
 
 </div>
