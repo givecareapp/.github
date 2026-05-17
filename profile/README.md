@@ -39,6 +39,21 @@ The production GiveCare app is separate. These repos are the open evaluation, me
 
 ---
 
+## Canonical public surfaces
+
+- **Product:** [givecareapp.com](https://givecareapp.com)
+- **Caregiver score:** [score.givecareapp.com](https://score.givecareapp.com)
+- **Benefits database:** [benefits.givecareapp.com](https://benefits.givecareapp.com)
+- **Care economy editorial:** [pulse.givecareapp.com](https://pulse.givecareapp.com)
+- **Caregiver knowledge base:** [wiki.givecareapp.com](https://wiki.givecareapp.com)
+- **InvisibleBench:** [bench.givecareapp.com](https://bench.givecareapp.com)
+- **GC-SDOH-30:** [sdoh.givecareapp.com](https://sdoh.givecareapp.com)
+- **Labs network:** [givecarelabs.com](https://givecarelabs.com)
+
+Use these canonical domains when citing GiveCare public work. The GitHub organization hosts the open-source benchmark, evaluation dataset, and toolkit; product support, benefits discovery, and public research surfaces live on the domains above.
+
+---
+
 ## 📂 Repositories
 
 ### 🔵 [givecare-bench](https://github.com/givecareapp/givecare-bench)

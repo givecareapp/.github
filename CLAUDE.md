@@ -17,6 +17,7 @@ This repo owns the public org profile only:
 - Keep content public-safe and open-source focused.
 - Do not add private product runtime details, internal operations, customer data, or unreleased strategy.
 - Link only to public GiveCare surfaces and public repos unless explicitly asked otherwise.
+- The canonical public-surface list in `profile/README.md` is allowed, but keep it to deployed public domains and avoid duplicating product docs.
 - Production product docs live in sibling repos such as `../gc-sms`, `../gc-web`, and `../gc-wiki`; do not duplicate them here.
 
 ## Commands
