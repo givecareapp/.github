@@ -1,0 +1,5 @@
+.clawpatch/
+.claude/
+.codex/
+*.log
+.DS_Store
