@@ -48,7 +48,7 @@ The production GiveCare app is separate. These repos are the open evaluation, me
 - **Care economy editorial:** [pulse.givecareapp.com](https://pulse.givecareapp.com)
 - **Caregiver knowledge base:** [wiki.givecareapp.com](https://wiki.givecareapp.com)
 - **InvisibleBench:** [bench.givecareapp.com](https://bench.givecareapp.com)
-- **GC-SDOH-30:** [sdoh.givecareapp.com](https://sdoh.givecareapp.com)
+- **GC-SDOH-30:** [givecareapp.com/sdoh](https://givecareapp.com/sdoh)
 - **Partner story:** [story.givecareapp.com](https://story.givecareapp.com)
 - **Labs network:** [givecarelabs.com](https://givecarelabs.com)
 
