@@ -12,6 +12,8 @@ public links, repo lists, and positioning drift.
   finding and picked a scope.
 - Do not use this repo to store private strategy, partner-specific claims, or
   operational status.
+- Public profile links, badges, repo lists, license/contact language, partner
+  copy, and press/featured claims require explicit owner approval before edits.
 
 ## Setup
 
@@ -25,8 +27,8 @@ clawpatch map --source agent --reasoning-effort low
 
 | Watch item | Trigger it when changes touch | Ask Clawpatch to look for | Local verification anchors |
 | --- | --- | --- | --- |
-| Organization profile | `profile/README.md` | Dead or stale repo links, missing active public repos, archived repo claims that read as active, domain list drift. | Manual link check; compare root workspace `CLAUDE.md` repo inventory. |
-| Agent profile notes | `CLAUDE.md`, this watchlist | Guidance that implies this repo owns product code, CI, deploys, or private operating truth. | Read `.github/CLAUDE.md`. |
+| Organization profile | `profile/README.md` | Dead or stale repo links, missing active public repos, archived repo claims that read as active, domain list drift, uncited badges or press claims. | Owner-approved public-copy scope; manual link check for every touched URL; compare root workspace `CLAUDE.md` repo inventory; `git diff --check`. |
+| Agent profile notes | `CLAUDE.md`, this watchlist | Guidance that implies this repo owns product code, CI, deploys, or private operating truth; missing owner gates for profile claims. | `git diff --check`; `clawpatch status --json`; read `.github/CLAUDE.md`. |
 
 ## Triage
 

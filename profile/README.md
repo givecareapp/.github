@@ -9,7 +9,7 @@
 
 [![Code License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Data License: CC BY 4.0](https://img.shields.io/badge/data-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Featured: Forbes](https://img.shields.io/badge/Featured-Forbes-blue)](https://givecareapp.com)
+[![Featured: Forbes](https://img.shields.io/badge/Featured-Forbes-blue)](https://www.forbes.com/sites/christinecarter/2025/08/12/12-startups-proving-motherhood-over-40-is-a-market-advantage/)
 
 [🌐 givecareapp.com](https://givecareapp.com)
 
@@ -44,13 +44,13 @@ The production GiveCare app is separate. These repos are the open evaluation, me
 - **Product:** [givecareapp.com](https://givecareapp.com)
 - **Caregiver score:** [score.givecareapp.com](https://score.givecareapp.com)
 - **Benefits database:** [benefits.givecareapp.com](https://benefits.givecareapp.com)
-- **Care AI policy map:** [ai.givecareapp.com](https://ai.givecareapp.com)
+- **Care AI policy map:** [givecareapp.com/ai](https://givecareapp.com/ai)
 - **Care economy editorial:** [pulse.givecareapp.com](https://pulse.givecareapp.com)
 - **Caregiver knowledge base:** [wiki.givecareapp.com](https://wiki.givecareapp.com)
 - **InvisibleBench:** [bench.givecareapp.com](https://bench.givecareapp.com)
 - **GC-SDOH-30:** [givecareapp.com/sdoh](https://givecareapp.com/sdoh)
 - **Partner story:** [story.givecareapp.com](https://story.givecareapp.com)
-- **Labs network:** [givecarelabs.com](https://givecarelabs.com)
+- **Labs network:** [givecareapp.com/labs](https://givecareapp.com/labs)
 
 Use these canonical domains when citing GiveCare public work. The GitHub organization hosts the open-source benchmark, evaluation dataset, and toolkit; product support, benefits discovery, and public research surfaces live on the domains above.
 
