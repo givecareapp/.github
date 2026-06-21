@@ -44,7 +44,7 @@ The production GiveCare app is separate. These repos are the open evaluation, me
 - **Product:** [givecareapp.com](https://givecareapp.com)
 - **Caregiver score:** [score.givecareapp.com](https://score.givecareapp.com)
 - **Benefits database:** [benefits.givecareapp.com](https://benefits.givecareapp.com)
-- **Care AI policy map:** [givecareapp.com/ai](https://givecareapp.com/ai)
+- **Care Policy Radar:** [givecareapp.com/policy](https://givecareapp.com/policy)
 - **Care economy editorial:** [pulse.givecareapp.com](https://pulse.givecareapp.com)
 - **Caregiver knowledge base:** [wiki.givecareapp.com](https://wiki.givecareapp.com)
 - **InvisibleBench:** [bench.givecareapp.com](https://bench.givecareapp.com)
