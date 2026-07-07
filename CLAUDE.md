@@ -12,12 +12,5 @@ change `profile/README.md` public claims without explicit owner approval.
 
 ```bash
 git diff --check
-clawpatch status --json
 # manually check every public URL touched in profile/README.md
 ```
-
-## Clawpatch Review
-
-Use `docs/clawpatch-watchlist.md` for profile-surface review passes. The repo
-config is `clawpatch.config.json`; generated `.clawpatch/` state stays local and
-ignored. Do not use Clawpatch as an automatic fixer here.
