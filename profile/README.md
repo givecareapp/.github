@@ -27,13 +27,13 @@
 
 ## 👋 About
 
-**63 million Americans are family caregivers.** They provide more than **$600B** in unpaid care each year and face higher risk of burnout, emotional strain, sleep disruption, financial stress, and long-term health decline.
+**[63 million Americans are family caregivers](https://wiki.givecareapp.com/sources/aarp-nac-2025/).** Caregiving can bring burnout, emotional strain, sleep disruption, financial stress, and long-term health effects.
 
 GiveCare open source focuses on the public primitives needed to build safer caregiver-support systems:
 
 - **Safety benchmarks** for AI agents in long-term caregiving relationships
 - **Evaluation datasets** for crisis handling, boundaries, red-team prompts, and trauma-informed response
-- **Caregiver SDOH tools** for measuring pressure zones and wellbeing signals
+- **Caregiver SDOH tools** for measuring GC1–GC6 domains and wellbeing signals
 
 The production GiveCare app is separate. These repos are the open evaluation, measurement, and research layer.
 
@@ -74,7 +74,7 @@ Contains 118 SMS-style test cases across core behavior, red-team, realistic care
 
 Open-source caregiver SDOH assessment and scoring toolkit.
 
-Provides TypeScript utilities for SDOH-6, EMA-3, SDOH-30, six-zone GiveCare Score calculation, adaptive deep-dive routing, quiet-hours checks, basic SMS regulatory keywords, and public geo helpers.
+Provides TypeScript utilities for SDOH-6, EMA-3, SDOH-30, six-domain GiveCare Score calculation, adaptive deep-dive routing, quiet-hours checks, basic SMS regulatory keywords, and public geo helpers.
 
 ---
 
