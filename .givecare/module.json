@@ -1,35 +1,8 @@
 {
-  "schema_version": "givecare.module/v1",
+  "schema_version": "givecare.module/v2",
   "repository": ".github",
-  "modules": [
-    {
-      "id": "github.public-profile",
-      "authority": {
-        "kind": "git",
-        "ref": "profile/README.md"
-      },
-      "truth": [
-        {
-          "kind": "markdown",
-          "ref": "profile/README.md"
-        }
-      ],
-      "verifiers": [
-        "git diff --check"
-      ],
-      "capabilities": [
-        {
-          "name": "public-profile.publish",
-          "effect": "external",
-          "gate": "human",
-          "adapter": {
-            "kind": "github-profile",
-            "ref": "profile/README.md"
-          },
-          "accepts": [],
-          "emits": []
-        }
-      ]
-    }
-  ]
+  "owns": "GitHub organization profile",
+  "check": "git diff --check",
+  "produces": [],
+  "consumes": []
 }
