@@ -62,19 +62,19 @@ Use these canonical domains when citing GiveCare public work. The GitHub organiz
 
 AI safety benchmark for long-term caregiving relationships.
 
-Tests crisis detection, regulatory compliance, emotional stability, care quality, and multi-turn relationship dynamics. Includes the GiveCare system paper and InvisibleBench evaluation framework.
+Judge caregiver-support conversations and get a Jury Card with evidence per check. Safety and Care stay separate; there is no composite score or model rank. `uv run bench demo` runs with no keys. Paper on arXiv.
 
 ### 🟣 [givecare-evals](https://github.com/givecareapp/givecare-evals)
 
 Public caregiver AI safety eval data.
 
-Contains 118 SMS-style test cases across core behavior, red-team, realistic caregiver scenarios, and multi-turn continuity, plus public SDOH-6, EMA-3, and SDOH-30 assessment instruments.
+Check any caregiver-facing assistant against SMS-style cases for crisis handling, boundaries, red-team prompts, realistic caregiver messages, and multi-turn continuity. Data only, CC-BY-4.0; the count lives in the repo.
 
 ### 🟢 [givecare-tools](https://github.com/givecareapp/givecare-tools)
 
 Open-source caregiver SDOH assessment and scoring toolkit.
 
-Provides TypeScript utilities for SDOH-6, EMA-3, SDOH-30, six-domain GiveCare Score calculation, adaptive deep-dive routing, quiet-hours checks, basic SMS regulatory keywords, and public geo helpers.
+Score a caregiver's six SDOH domains in TypeScript and route to the one that needs attention. `npm install @givecare/tools`, no account, no network.
 
 ---
 
