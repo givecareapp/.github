@@ -70,7 +70,7 @@ Public caregiver AI safety eval data.
 
 Check any caregiver-facing assistant against SMS-style cases for crisis handling, boundaries, red-team prompts, realistic caregiver messages, and multi-turn continuity. Data only, CC-BY-4.0; the count lives in the repo.
 
-### 🟢 [givecare-tools](https://github.com/givecareapp/givecare-tools)
+### 🟢 [research-tools](https://github.com/givecareapp/research-tools)
 
 Open-source caregiver SDOH assessment and scoring toolkit.
 
