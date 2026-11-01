@@ -58,7 +58,7 @@ Use these canonical domains when citing GiveCare public work. The GitHub organiz
 
 ## 📂 Repositories
 
-### 🔵 [givecare-bench](https://github.com/givecareapp/givecare-bench)
+### 🔵 [research-bench](https://github.com/givecareapp/research-bench)
 
 AI safety benchmark for long-term caregiving relationships.
 
