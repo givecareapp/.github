@@ -58,7 +58,7 @@ Use these canonical domains when citing GiveCare public work. The GitHub organiz
 
 ## 📂 Repositories
 
-### 🔵 [research-bench](https://github.com/givecareapp/research-bench)
+### 🔵 [invisiblebench](https://github.com/givecareapp/invisiblebench)
 
 AI safety benchmark for long-term caregiving relationships.
 
@@ -70,7 +70,7 @@ Public caregiver AI safety eval data.
 
 Check any caregiver-facing assistant against SMS-style cases for crisis handling, boundaries, red-team prompts, realistic caregiver messages, and multi-turn continuity. Data only, CC-BY-4.0; the count lives in the repo.
 
-### 🟢 [research-tools](https://github.com/givecareapp/research-tools)
+### 🟢 [assessment](https://github.com/givecareapp/assessment)
 
 Open-source caregiver SDOH assessment and scoring toolkit.
 
