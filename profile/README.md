@@ -62,9 +62,9 @@ Use these canonical domains when citing GiveCare public work. The GitHub organiz
 
 AI safety benchmark for long-term caregiving relationships.
 
-Judge caregiver-support conversations and get a Jury Card with evidence per check. Safety and Care stay separate; there is no composite score or model rank. `uv run bench demo` runs with no keys. Paper on arXiv.
+Judge caregiver-support conversations and get a Jury Card with evidence per check. Safety and Care stay separate; there is no composite score or model rank. `scripts/check.sh` runs offline checks with no API keys. Paper on arXiv.
 
-### 🟣 [givecare-evals](https://github.com/givecareapp/givecare-evals)
+### 🟣 [care-evals](https://github.com/givecareapp/care-evals)
 
 Public caregiver AI safety eval data.
 
